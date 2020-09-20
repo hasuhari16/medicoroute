@@ -1,0 +1,116 @@
+ 
+body
+{
+ margin: 0;
+ padding:0;
+ display:flex;
+ justify-content:center;
+ min-height:10vh;
+ align-items:center;
+ background-image:url("/storage/emulated/0/DCIM/Camera/IMG_20200621_133643.jpg");
+background-size:cover;
+ 
+}
+.cont
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.cont .box
+{
+position: relative;
+width: 250px;
+padding:40px;
+background:#f7f3f4;
+box-shadow:0 5px 15px black;
+border-radius:5px;
+margin:10px;
+box-sizing:border-box;
+overflow:hidden;
+align-content:center;
+}
+.cont .box .icon
+{
+position:relative;
+width:70px;
+height:70px;
+color:white;
+background:black;
+justify-content:center;
+align-items:center;
+margin:6px auto;
+border-radius:50%;
+font-size:55px;
+font-weight:700;
+transition:1s;
+}
+.cont .box:nth-child(1) .icon
+{
+box-shadow:0 0 0 0 lime;
+background:lime;
+}
+.cont .box:nth-child(1):hover .icon
+{
+box-shadow:0 0 0 300px lime;
+}.cont .box:nth-child(2) .icon
+{
+box-shadow:0 0 0 0 #ff1ad2;
+background:#ff1ad2;
+}
+.cont .box:nth-child(2):hover .icon
+{
+box-shadow:0 0 0 300px #ff1ad2;
+}
+.cont .box:nth-child(3) .icon
+{
+box-shadow:0 0 0 0 #f7ff00;
+background:#f7ff00;
+}
+.cont .box:nth-child(3):hover .icon
+{
+box-shadow:0 0 0 300px #f7ff00;
+}
+.cont .box .content{
+position:relative;
+z-index:1;
+transition:2s;
+}.cont .box:hover .content
+{
+color:white;
+}
+.cont .box .content h2
+{
+font-size:20px;
+margin:10px 0;
+padding:0;
+}
+.cont .box .content p
+{
+margin:0;
+padding:0;
+}
+a{
+display:inline-block;
+padding:10px 20px;
+background:white;
+border-radius:4px;
+text-decoration:none;
+color:black;
+font-weight:500px;
+margin-top:20px;
+box-shadow:0 2px 5px black;
+}
+ 
+footer  {
+padding: 6px 40px 6px 40px;
+background:#6d6d6d;
+font-family:"cambria";
+color:white;
+font-size:12px;
+text-decoration: right;
+}
+footer a{
+text-decoration:none;
+color:indigo;
+}
